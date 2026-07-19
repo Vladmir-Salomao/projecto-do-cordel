@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*importaçoes*/
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/*
+https://www.youtube.com/shorts/kYsq2u_Tp8g
+*/
+
+/*declaração de variaveis*/
+:root{
+    --font1: helvetica,arial,sans-serif;
+    --font2: passion one;
+    --font3: bubblegum sans;
+}
+/* inicio*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+}
+header h1{
+    padding-top: 50px;
+    font: small-caps 10vw var(--font2);
+}
+header a,footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header p{
+    padding-bottom: 50px;
+}
+section{
+    font-family: var(--font3);
+    line-height: 2em;
+    font-size: 4.5vw;
+    padding: 10vw 30px 10vh 30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.normal{
+    background-color: white;
+
+}
+.imagem{
+    background-color: rgba(21, 21, 21, 0.715);
+    color: white;
+    box-shadow: inset 1px 1px 10px black;
+}
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.435);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 10px black;
+}
+#img1{
+    background-image: url(../imagens/background001.jpg);
+    
+}
+#img2{
+    background-image: url(../imagens/background002.jpg);
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
